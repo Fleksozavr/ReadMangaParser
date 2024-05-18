@@ -4,3 +4,4 @@ aiohttp
 aiofiles
 asyncio
 img2pdf
+python-dotenv
