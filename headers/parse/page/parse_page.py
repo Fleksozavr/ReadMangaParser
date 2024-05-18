@@ -43,6 +43,7 @@ async def download_images_from_html(html_path, output_folder):
 
     timeout = aiohttp.ClientTimeout(total=30)
 
+    
     async with aiohttp.ClientSession(timeout=timeout) as session:
         for img in imgs:
             data_page = img.get('data-page')
