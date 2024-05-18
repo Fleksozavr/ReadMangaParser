@@ -1,0 +1,6 @@
+requests
+bs4
+aiohttp
+aiofiles
+asyncio
+img2pdf
