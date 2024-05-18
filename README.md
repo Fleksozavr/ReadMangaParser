@@ -21,6 +21,11 @@
   git clone https://github.com/your_username/webcomic-downloader.git
   ```
 
+- Создайте файл .env, и укажите в нём путь до вашего Chrome:
+  ```
+  CHROME_PATH=your_path
+  ```
+
 - Перейдите в каталог проекта:
   ```bash
   cd webcomic-downloader
@@ -35,6 +40,9 @@
   ```bash
   python run.py
   ```
+
+### Примечание
+Если вы хотите избавиться от выпадающих ошибок, и предупреждений, используйте указанную версию chrome 108 или ниже.
 
 ## Разработка
 
