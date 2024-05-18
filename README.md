@@ -26,6 +26,9 @@
   CHROME_PATH=your_path
   DRIVER_PATH=your_path
   ```
+  
+  **В репозитории уже лежит каталог chromedriver, можете указать путь к нему**
+
 
 - Перейдите в каталог проекта:
   ```bash
