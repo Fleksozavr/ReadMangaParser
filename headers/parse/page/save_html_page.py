@@ -17,8 +17,8 @@ class Chrome:
         options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)")
         options.add_argument('--headless=new')
 
-        self._browser = uc.Chrome(driver_executable_path='C:/Users/user/Desktop/manga/chromedriver/chromedriver.exe',
-                                  browser_executable_path='C:/Program Files/Google/Chrome/Application/chrome.exe',
+        self._browser = uc.Chrome(driver_executable_path=os.getenv('DRIVER_PATH'),
+                                  browser_executable_path=os.getenv('CHROME_PATH'),
                                   disable_detection=True,
                                   options=options)
         self._wait = WebDriverWait(self._browser, 600)
