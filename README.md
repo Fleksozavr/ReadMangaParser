@@ -10,6 +10,7 @@
 
 ## Технологии
 - [Python](https://www.python.org/)
+- [Chrome](https://www.google.com/intl/ru_ru/chrome/)
 - [AIOHTTP](https://docs.aiohttp.org/en/stable/)
 - [Selenium](https://selenium-python.readthedocs.io/)
 
