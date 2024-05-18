@@ -24,6 +24,7 @@
 - Создайте файл .env, и укажите в нём путь до вашего Chrome:
   ```
   CHROME_PATH=your_path
+  DRIVER_PATH=your_path
   ```
 
 - Перейдите в каталог проекта:
