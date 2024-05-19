@@ -1,7 +1,6 @@
 import asyncio
 import os
 import img2pdf
-import time
 
 from headers.parse.page.save_html_page import Chrome
 from headers.parse.page.parse_page import download_images_from_html
