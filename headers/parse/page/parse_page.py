@@ -49,7 +49,7 @@ async def download_images_from_html(html_path, output_folder):
             data_page = img.get('data-page')
             img_src = img.get('src')
             if img_src:
-                img_folder = os.path.join(output_folder, f"chapter_{data_page}")
+                img_folder = os.path.join(output_folder, f"image_{data_page}")
                 if not os.path.exists(img_folder):
                     os.makedirs(img_folder)
                 img_filename = os.path.join(img_folder, f"image_{data_page}.jpg")
