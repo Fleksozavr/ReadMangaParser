@@ -34,6 +34,11 @@ async def save_images_to_pdf(chapter_folder):
 async def save_and_parse_title_html(url_title):
     title = Title()
     title.save_title_html(url_title, filename='title_page.html')
+    fodler_path = 'html'
+    
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+        
     parse_titles('html/title_page.html')
 
 
