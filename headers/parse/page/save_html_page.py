@@ -1,6 +1,5 @@
 import os
 import undetected_chromedriver as uc
-import time
 
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
