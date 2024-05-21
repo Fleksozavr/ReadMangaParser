@@ -19,7 +19,7 @@
 
 - Клонируйте репозиторий проекта с GitHub:
   ```bash
-  git clone https://github.com/your_username/webcomic-downloader.git
+  git clone https://github.com/fleksozavr/ReadMangaParser
   ```
 
 - Создайте файл .env, и укажите в нём путь до вашего Chrome:
